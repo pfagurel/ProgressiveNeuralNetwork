@@ -4,7 +4,9 @@
 
 ## Description
 
-This repository contains an implementation of Progressive Neural Networks (PNNs) in PyTorch. PNNs are designed to alleviate the problem of catastrophic forgetting in neural networks when trained on a sequence of tasks. Each new task leverages knowledge from previously learned tasks while preserving their performance.
+This repository contains an implementation of Progressive Neural Networks (PNNs) in PyTorch. PNNs are designed to alleviate the problem of catastrophic forgetting in neural networks when trained on a sequence of tasks. Each new task leverages knowledge from previously learned tasks by transfer learning, while preserving their performance.
+
+
 
 
 
@@ -115,6 +117,15 @@ print(f"Task 2 accuracy: {task2_acc}%")
 ```
 
 
+
+
+## Based on Research
+This implementation is based on the research presented in the following paper, although it is not an exact replication:
+> **Progressive Neural Networks**  
+> *Andrei Rusu, Neil Rabinowitz, Guillaume Desjardins, Hubert Soyer, James Kirkpatrick, Koray Kavukcuoglu, Razvan Pascanu, Raia Hadsell*  
+> Published in: *ArXiv*  
+> Year: *2016*  
+> [Link to the paper](https://arxiv.org/abs/1606.04671)
 
 ## License
 
